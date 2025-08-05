@@ -7,7 +7,8 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "relay": "relay-compiler"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
@@ -35,14 +36,22 @@
     "react-native-safe-area-context": "5.4.0",
     "react-native-screens": "~4.11.1",
     "react-native-web": "~0.20.0",
-    "react-native-webview": "13.13.5"
+    "react-native-webview": "13.13.5",
+    "react-relay": "^20.1.0",
+    "relay-runtime": "^20.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~19.0.10",
-    "typescript": "~5.8.3",
+    "@types/react-relay": "^18.2.1",
+    "@types/relay-runtime": "^19.0.2",
+    "babel-plugin-relay": "^20.1.0",
     "eslint": "^9.25.0",
-    "eslint-config-expo": "~9.2.0"
+    "eslint-config-expo": "~9.2.0",
+    "get-graphql-schema": "^2.1.2",
+    "graphql": "^16.11.0",
+    "relay-compiler": "^20.1.0",
+    "typescript": "~5.8.3"
   },
   "private": true
 }
